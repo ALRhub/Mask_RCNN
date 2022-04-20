@@ -114,8 +114,8 @@ if __name__ == "__main__":
     import os
     import numpy as np
     import keras.optimizers
-    from keras.datasets import mnist
-    from keras.preprocessing.image import ImageDataGenerator
+    from tensorflow.keras.datasets import mnist
+    from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
     GPU_COUNT = 2
 
